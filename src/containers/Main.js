@@ -18,6 +18,7 @@ export class Main extends Component {
   userDataRef = firestore().collection('users').doc(auth().currentUser.uid).collection('water')
 
   componentDidMount(){
+    
     const today = new Date()
     today.setHours(0,0,0,0) 
     this.userDataRef.where("createdAt", "==", today.toString())
