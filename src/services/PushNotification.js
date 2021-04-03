@@ -31,10 +31,9 @@ export const ScheduledLocalNotification = () => {
     message: 'Have a drink of water',
     vibrate: true,
     vibration: 500,
-    date: new Date(Date.now()), 
+    date: new Date(Date.now() + 7200 * 1000), 
     repeatType: 'time',
     repeatTime: 7200 * 1000,
-    // repeatTime: 10 * 1000,
     channelId: 'channel-id'
     
   })

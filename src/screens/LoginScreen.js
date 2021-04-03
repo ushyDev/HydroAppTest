@@ -3,6 +3,7 @@ import {SafeAreaView} from 'react-native'
 import {Screen, BackgroundImage } from 'components'
 import { Login } from 'containers'
 
+
 const LoginScreen = ({}) => {
    return (
     <Screen> 

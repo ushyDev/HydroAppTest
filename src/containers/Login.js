@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import auth from '@react-native-firebase/auth'
 
+
 import { View, StyleSheet, Dimensions, Text} from 'react-native';
 import { Logo, Input, Button, Title } from 'components'
+import {PushNotification} from 'services'
 
 const windowHeight = Dimensions.get('window').height;
 
@@ -13,6 +15,10 @@ export class Login extends Component {
         textEmail: '',
         textPassword: ''
     };
+  }
+
+  componentDidMount() {
+    PushNotification.ScheduledLocalNotification()
   }
 
   SignInWithEmail = () => {

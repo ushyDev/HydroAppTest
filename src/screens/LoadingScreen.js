@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import auth from '@react-native-firebase/auth';
 
 import { Loading  } from 'components'
-import {PushNotification} from 'services'
 
 
 export default class LoadingScreen extends Component {
@@ -14,7 +13,6 @@ export default class LoadingScreen extends Component {
 
   componentDidMount() {
     this.checkIfLoggedIn();
-    PushNotification.ScheduledLocalNotification()
   }
 
   checkIfLoggedIn = () => {
