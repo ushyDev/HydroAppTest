@@ -1,0 +1,10 @@
+com/hydroapp/BuildConfig.java
+ com.hydroapp.BuildConfig
+com/hydroapp/MainActivity.java
+ com.hydroapp.MainActivity
+ com.hydroapp.MainActivity$1
+com/hydroapp/MainApplication.java
+ com.hydroapp.MainApplication
+ com.hydroapp.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

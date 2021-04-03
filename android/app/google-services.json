@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "401158965902",
+    "project_id": "hydroapp-230c0",
+    "storage_bucket": "hydroapp-230c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401158965902:android:08cb7f32009eccd35f17df",
+        "android_client_info": {
+          "package_name": "com.hydroapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401158965902-jtd7jc4ocknia7ulu3enpumvbb9u0da4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPk6rxrdOc2XFne8IjzAFhsJEWqh967Gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401158965902-jtd7jc4ocknia7ulu3enpumvbb9u0da4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
